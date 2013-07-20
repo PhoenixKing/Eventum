@@ -1,4 +1,5 @@
 <div class='mainEvent'>
+    <h2>Пробная запись</h2>
     <div class='mainEvent_title'>
     </div>
     <div class='mainEvent_left'>
