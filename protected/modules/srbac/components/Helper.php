@@ -360,7 +360,7 @@ class Helper {
     } else {
       $modules = $parent->getModules();
       foreach ($modules as $mod => $conf) {
-        return $this->findInModule($parent->getModule($mod), $moduleID);
+        return self::findInModule($parent->getModule($mod), $moduleID);
       }
     }
     return null;
@@ -523,3 +523,4 @@ class Helper {
     return true;
   }
 }
+?>

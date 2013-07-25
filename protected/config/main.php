@@ -7,7 +7,7 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'My Web Application',
+	'name'=>'Eventum',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -16,6 +16,7 @@ return array(
 	'import'=>array(
 		'application.models.*',
 		'application.components.*',
+        'application.modules.srbac.controllers.SBaseController',
 	),
 
 	'modules'=>array(
@@ -27,7 +28,15 @@ return array(
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1'),
 		),
-
+        'srbac'=>array(
+            // Модель для работы с таблицой пользователей
+            'userclass'=>'User',
+            // Уникальный идентификатор пользователя
+            'userid'=>'id',
+            // Название поля содержащего имя пользователя
+            'username'=>'login',
+            'debug'=>true
+        )
 	),
 
 	// application components
@@ -43,6 +52,7 @@ return array(
 
 		'urlManager'=>array(
 			'urlFormat'=>'path',
+            'showScriptName'=>false,
 			'rules'=>array(
                 'gii'=>'gii',
                 'gii/<controller:\w+>'=>'gii/<controller>',
@@ -53,6 +63,15 @@ return array(
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			),
 		),
+
+        'authManager'=>array(
+            'class'=>'CDbAuthManager',
+            'connectionID'=>'db',
+            'itemTable'=>'AuthItem',
+            'itemChildTable'=>'AuthItemChild',
+            'assignmentTable'=>'AuthAssignment',
+            'defaultRoles'=>array('Guest'),
+        ),
 
 		'db'=>array(
 			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',

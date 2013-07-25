@@ -27,6 +27,7 @@
         margin: 0px;
         padding: 0px;
         float: left;
+        display: block;
     }
     #logo>img {
         width: 100%;

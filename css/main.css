@@ -6,8 +6,13 @@ body, html {
 
 h1, h2, h3, h4 {
     font-family: "Segoe UI Light";
-    font-size: 14pt;
+    font-size: 13pt;
     color: #555555;
     padding: 10px 10px 10px 0px;
     margin:0px;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
 }

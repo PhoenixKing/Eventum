@@ -29,7 +29,8 @@ class SiteController extends Controller
 	 */
 	public function actionIndex()
 	{
-        $this->render('index');
+        $events = Events::model()->findAll();
+        $this->render('index', array('events'=>$events));
 	}
 
 	/**

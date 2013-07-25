@@ -4,8 +4,12 @@
     <?php $this->widget('application.components.dayFilterWidget.dayFilterWidget'); ?>
 
     <h1>Афиша событий</h1>
-    <?php $this->renderPartial('//layouts/_mainEvent'); ?>
-    <p>Здесь былО 800 пикселей.</p>
+
+    <?php
+    foreach ($events as $event) {
+        $this->renderPartial('//layouts/_event', array('event'=>$event));
+    }
+    ?>
 </div>
 
 <style type='text/css'>
