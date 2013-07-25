@@ -1,5 +1,5 @@
 <?php $this->widget('application.components.LeftMenuWidget.leftMenuWidget'); ?>
-<?php $route = 'http://fc03.deviantart.net/fs71/i/2012/004/8/a/volibear_thunder__s_roar_sculpture_by_snakestorm44-d4l9x9k.jpg'; ?>
+<?php $user = User::model()->findByPk($event->author_id); ?>
 
 <div class='contentBlock'>
     <?php
@@ -18,10 +18,9 @@
 
     <div class='informationBlock'>
         <h1><?php echo $event->title; ?></h1>
-        <div class='userBlock'>
-            <div class='avatar'>
-                <img src='<?php echo $route; ?>'>
-            </div>
+        <?php $this->renderPartial('//event/_user', array('user'=>$user)); ?>
+        <div class='willBlock'>
+            <div class='willGoButton'></div>
         </div>
     </div>
 
@@ -29,22 +28,43 @@
 </div>
 
 <style type='text/css'>
+    .willBlock {
+        width: 400px;
+        height: 50px;
+        background-color: #f6f6f6;
+        position: absolute;
+        bottom: 15px;
+        right: 10px;
+        border-radius: 2px;
+    }
+    .willGoButton {
+        display: block;
+        width: 100px;
+        height: 28px;
+        margin: 10px 0px 0px 10px;
+        border-radius: 2px;
+        border: 1px #f6f6f6 solid;
+    }
+    .willGoButton:hover {
+        border: 1px #c9c9c9 solid;
+        background-color: #f3f3f3;
+    }
+</style>
+
+<style type='text/css'>
     .informationBlock {
         border-bottom: 1px #c9c9c9 solid;
         padding: 0px 10px 15px 10px;
         margin: 0px 0px 10px 0px;
+        overflow: hidden;
+        position: relative;
     }
     h1 {
-        padding: 5px 0px 10px 0px;
-    }
-    .avatar {
-        width: 70px;
-        height: 70px;
-        overflow: hidden;
-    }
-    .avatar>img {
-        <?php $image = ImageControl::getImage($route); echo ($image->width>$image->height) ? 'width: 100%;' : 'height: 100%;';?>
-        margin-left: -15px;
+        font-family: Arial;
+        font-weight: normal;
+        font-size: 15pt;
+        padding: 5px 0px 20px 0px;
+        color: #222;
     }
     .contentBlock {
         display: block;

@@ -8470,3 +8470,219 @@ Stack trace:
 REQUEST_URI=/favicon.ico
 HTTP_REFERER=http://eventum.kz/
 ---
+2013/07/25 23:26:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\eventum.kz\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\eventum.kz\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://eventum.kz/event/2
+---
+2013/07/25 23:28:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\eventum.kz\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\eventum.kz\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://eventum.kz/event/2
+---
+2013/07/25 23:30:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\eventum.kz\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\eventum.kz\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://eventum.kz/event/2
+---
+2013/07/25 23:32:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\eventum.kz\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\eventum.kz\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://eventum.kz/event/2
+---
+2013/07/25 23:33:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\eventum.kz\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\eventum.kz\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://eventum.kz/event/2
+---
+2013/07/25 23:33:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\eventum.kz\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\eventum.kz\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://eventum.kz/event/2
+---
+2013/07/25 23:38:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\eventum.kz\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\eventum.kz\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://eventum.kz/event/2
+---
+2013/07/25 23:40:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\eventum.kz\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\eventum.kz\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://eventum.kz/event/2
+---
+2013/07/25 23:41:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\eventum.kz\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\eventum.kz\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://eventum.kz/event/2
+---
+2013/07/25 23:43:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\eventum.kz\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\eventum.kz\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://eventum.kz/event/2
+---
+2013/07/25 23:45:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\eventum.kz\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\eventum.kz\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://eventum.kz/event/2
+---
+2013/07/25 23:46:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\eventum.kz\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\eventum.kz\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://eventum.kz/event/2
+---
+2013/07/25 23:48:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\eventum.kz\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\eventum.kz\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://eventum.kz/event/2
+---
+2013/07/25 23:49:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\eventum.kz\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\eventum.kz\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://eventum.kz/event/2
+---
+2013/07/25 23:49:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\eventum.kz\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\eventum.kz\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://eventum.kz/event/2
+---
+2013/07/25 23:54:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\eventum.kz\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\eventum.kz\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://eventum.kz/event/2
+---
+2013/07/25 23:55:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\eventum.kz\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\eventum.kz\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://eventum.kz/event/2
+---
+2013/07/25 23:55:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\eventum.kz\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\eventum.kz\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://eventum.kz/event/2
+---
+2013/07/25 23:56:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\eventum.kz\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\eventum.kz\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://eventum.kz/event/2
+---
+2013/07/25 23:57:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\eventum.kz\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\eventum.kz\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://eventum.kz/event/2
+---
+2013/07/25 23:57:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\eventum.kz\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\eventum.kz\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://eventum.kz/event/2
+---
+2013/07/25 23:59:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\eventum.kz\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\eventum.kz\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://eventum.kz/event/2
+---
+2013/07/26 00:00:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\eventum.kz\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\eventum.kz\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://eventum.kz/event/2
+---
+2013/07/26 00:01:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\eventum.kz\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\eventum.kz\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\eventum.kz\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://eventum.kz/event/2
+---
